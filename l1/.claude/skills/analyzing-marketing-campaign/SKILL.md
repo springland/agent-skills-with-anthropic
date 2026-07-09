@@ -27,6 +27,9 @@ TikTok_Ads, 2.0%, 0.9%
 Email, 15.0%, 2.1%
 
 
+### Budget reallocation
+If budget reallocation proposal is requested please refer to ./references/budget_reallocation_rules.md for the reallocation rules to make suggestion
+
 ### Python script
 script/analyze_campaign.py has 3 functions
 1. data quality check
@@ -49,5 +52,5 @@ usage: python analyze_campaign.py inputdata.csv
 
 
 ### output 
-1. Table summarizing CTR  , CVR and compare them to these historical benchmarks for each channel
+1. Table summarizing CTR  , CVR and compare them to these historical benchmarks for each channel , please list benchmark value  , CTR , CVR and delta in your output
 2. Table summarizing ROAS  , CPA , Net profit andcompare them to the targets: Target ROAS: 4.0x minimum Max CPA: $50 Net profit should be positive for each channel
